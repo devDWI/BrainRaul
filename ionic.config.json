@@ -1,0 +1,7 @@
+{
+  "name": "braintree_gw",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
