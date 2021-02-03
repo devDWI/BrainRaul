@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">braintree_gw</string>
+    <string name="title_activity_main">braintree_gw</string>
+    <string name="package_name">com.prueba.braintree</string>
+    <string name="custom_url_scheme">com.prueba.braintree</string>
+</resources>

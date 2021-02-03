@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Braintree, { DropInOptions } from 'cordova-plugin-braintree-sdk';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,20 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  private BRAINTREE_TOKEN = 'sandbox_7bvyvbqr_wfy3fnnvkh3vhkyq';
 
+  constructor() { }
+  createDropIn() {
+
+    const paymentOptions: DropInOptions = {
+      token: this.BRAINTREE_TOKEN
+    }
+    Braintree.presentDropInPaymentUI(
+     paymentOptions,
+     function (success) {
+      console.log('respuesta correcta',success);
+    }, function (error) {
+      console.error('respuesta erronea',error);
+    });
+  }
 }
