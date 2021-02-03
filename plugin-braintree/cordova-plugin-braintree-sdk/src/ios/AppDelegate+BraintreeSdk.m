@@ -7,8 +7,8 @@
     NSString *bundle_id = [NSBundle mainBundle].bundleIdentifier;
     bundle_id = [bundle_id stringByAppendingString:@".payments"];
     [BTAppSwitch setReturnURLScheme:bundle_id];
-    
-    return [super application:application didFinishLaunchingWithOptions:launchOptions];
+    return YES;
+  /*   return [super application:application didFinishLaunchingWithOptions:launchOptions]; */
 }
 
 - (BOOL)application:(UIApplication *)application
@@ -20,7 +20,7 @@
         return [BTAppSwitch handleOpenURL:url options:options];
     }
     [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:CDVPluginHandleOpenURLNotification object:url]];
-    
+
     return NO;
 }
 
