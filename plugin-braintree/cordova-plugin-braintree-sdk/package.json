@@ -1,0 +1,61 @@
+{
+  "_from": "git+https://github.com/EinfachHans/cordova-plugin-braintree-sdk.git",
+  "_id": "cordova-plugin-braintree-sdk@1.0.0-alpha",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-braintree-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/EinfachHans/cordova-plugin-braintree-sdk",
+    "rawSpec": "https://github.com/EinfachHans/cordova-plugin-braintree-sdk",
+    "saveSpec": "git+https://github.com/EinfachHans/cordova-plugin-braintree-sdk.git",
+    "fetchSpec": "https://github.com/EinfachHans/cordova-plugin-braintree-sdk.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/EinfachHans/cordova-plugin-braintree-sdk.git#a8d2f21768bbc90c727a6b1a8864578878a8d569",
+  "_spec": "https://github.com/EinfachHans/cordova-plugin-braintree-sdk",
+  "_where": "/home/rglepe/Documentos/BCNCODES-ACADEMY/proyectos/estudiosdwi/thetraktor/prototipos/pasarelas/braintree_gw",
+  "author": {
+    "name": "EinfachHans"
+  },
+  "bugs": {
+    "url": "https://github.com/EinfachHans/cordova-plugin-braintree-sdk/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-braintree-sdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin for latest Braintree Integration",
+  "homepage": "https://github.com/EinfachHans/cordova-plugin-braintree-sdk",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "capacitor",
+    "braintree",
+    "paypal",
+    "card",
+    "payment"
+  ],
+  "license": "MIT",
+  "main": "./src/typings/index.js",
+  "name": "cordova-plugin-braintree-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EinfachHans/cordova-plugin-braintree-sdk.git"
+  },
+  "scripts": {
+    "doctoc": "doctoc README.md --github --title '**Table of Content**' --maxlevel 3"
+  },
+  "types": "./src/typings/index.d.ts",
+  "version": "1.0.0-alpha"
+}
