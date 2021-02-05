@@ -19,7 +19,7 @@ export class HomePage {
     Braintree.presentDropInPaymentUI(
      paymentOptions,
      function (success) {
-      console.log('respuesta correcta',success);
+      console.log('respuesta correcta',JSON.stringify(success));
     }, function (error) {
       console.error('respuesta erronea',error);
     });
