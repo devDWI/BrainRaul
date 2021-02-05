@@ -43,6 +43,7 @@ static NSString * const TAG = @"[BraintreeSdk] ";
 
         BTDropInRequest *request = [[BTDropInRequest alloc] init];
         request.vaultManager = vaultManager;
+        request.paypalDisabled = YES;
         if(disableCard) {
             request.cardDisabled = true;
         } else {
